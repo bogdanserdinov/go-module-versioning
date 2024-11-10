@@ -23,6 +23,7 @@ Example of retracting a version:
 ```go
 module github.com/username/repo
 
+// Retract version v1.0.0 due to breaking changes
 retract v1.0.0 // RESTRICTED due to breaking changes
 ```
 
