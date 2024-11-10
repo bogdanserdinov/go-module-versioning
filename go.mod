@@ -1,4 +1,4 @@
-module sdk_versioning
+module github.com/bogdanserdinov/sdk-versioning-test
 
 go 1.22.8
 

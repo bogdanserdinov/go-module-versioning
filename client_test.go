@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"sdk_versioning"
+	"github.com/bogdanserdinov/sdk-versioning-test/sdk_versioning"
 )
 
 func TestCoingeckoClient(t *testing.T) {
