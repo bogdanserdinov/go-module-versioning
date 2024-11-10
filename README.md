@@ -23,10 +23,10 @@ Example of retracting a version:
 ```go
 module github.com/username/repo
 
-retract v1.0.0 // DEPRECATED due to breaking changes
+retract v1.0.0 // RESTRICTED due to breaking changes
 ```
 
 This will retract the version, and users trying to fetch it will see a warning like this:
 ```bash
-go: warning: github.com/username/repo@v1.0.0: retracted by module author: DEPRECATED due to breaking changes
+go: warning: github.com/username/repo@v1.0.0: retracted by module author: RESTRICTED due to breaking changes
 ````
