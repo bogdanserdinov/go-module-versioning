@@ -11,7 +11,6 @@
   - Modify the Go module path in go.mod to reflect the new versioning (e.g., github.com/username/repo/v2).
 - For minor and patch version changes:
   - Use Git tags to create the version, like so:
-    bash
 ```bash
 git tag v1.0.1
 git push origin v1.0.1
@@ -24,7 +23,7 @@ Example of retracting a version:
 ```go
 module github.com/username/repo
 
-restrict v1.0.0 // DEPRECATED due to breaking changes
+retract v1.0.0 // DEPRECATED due to breaking changes
 ```
 
 This will retract the version, and users trying to fetch it will see a warning like this:

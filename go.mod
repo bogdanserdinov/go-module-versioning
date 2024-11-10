@@ -2,6 +2,8 @@ module github.com/bogdanserdinov/sdk-versioning-test
 
 go 1.22.8
 
+retract v1.0.1
+
 require github.com/stretchr/testify v1.9.0
 
 require (
