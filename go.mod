@@ -2,6 +2,7 @@ module github.com/bogdanserdinov/sdk-versioning-test
 
 go 1.22.8
 
+// Retract version v1.0.0 due to breaking changes
 retract v1.0.0
 
 require github.com/stretchr/testify v1.9.0
