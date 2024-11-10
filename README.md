@@ -28,5 +28,5 @@ retract v1.0.0 // DEPRECATED due to breaking changes
 
 This will retract the version, and users trying to fetch it will see a warning like this:
 ```bash
-go: warning: github.com/caarlos0/env/v11@v11.0.1: retracted by module author: DEPRECATED due to breaking changes
+go: warning: github.com/username/repo@v1.0.0: retracted by module author: DEPRECATED due to breaking changes
 ````
